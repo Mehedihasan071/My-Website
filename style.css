@@ -1,0 +1,126 @@
+body{
+    padding:0;
+        box-sizing:content-box;
+        margin:0;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    section {
+    
+        position:relative;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        min-height:100vh;
+    }
+    section header{
+        position:absolute;
+        top:0;
+        display:flex;
+        justify-content:flex-end;
+        width:100%;}
+        section header ul{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+    =
+        }
+        section header ul li{
+            list-style:none;
+       }
+       section header ul li a {
+        text-decoration:none;
+        color:#666;
+        font-size:20px;
+        margin-left:20px;
+    
+       }
+       section header ul li i{
+       padding:12px 20px;
+        font-size:20px;
+       }
+       section header ul li button{
+        padding:12px 20px;
+        border:none;
+        border-radius:1px solid #666;
+        margin-right:12px;
+        color:white;
+        background-color:rgb(0, 195, 255);
+       }
+    section .main{
+        width:580px;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;}
+        section .main .searchbox{
+            margin-top:20px;
+           width:100%;
+           position:relative;
+            
+        }
+        section .main .searchbox .search{
+    pointer-events:painted;
+    width:100%; 
+      padding:13px;
+    padding-right:50px;
+    padding-left:45px;
+    font-size:14px;
+    border-radius:30px;
+    border:1px solid #666;}
+    section .main .searchbox .icons{
+        top:0;
+        position:absolute;
+       display:flex;
+        margin:12px 20px;
+        justify-content:space-between;
+        width:100%;
+        align-items:center;
+    }
+    section .main .buttons{
+        margin-top:20px;
+        
+    }
+    section .main .buttons button{
+        padding:12px 20px;
+        border:none;
+        border-radius:1px solid transfarent;
+        margin:0px 5px;
+        font-size:14px;
+        cursor:pointer;
+        
+    }
+    section .main .buttons button:hover {
+        background-color:#5f6368;
+    
+    
+    }
+    section .main .lang{
+        margin-top:20px;
+    }
+    section .ft{
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:100%;
+        background-color:#beb8b8;
+    }
+    section .ft .row{
+        width:100%;
+        justify-content:space-between;
+        display:flex;
+    }
+    section .ft .row ul {
+        display:flex;
+    
+    }
+    section .ft .row ul li {
+        list-style:none;
+    
+    }
+    section .ft .row ul li a {
+        text-decoration:none;
+        color:black;
+        margin-right:25px;
+        font-size:14px;
+    }
+    
